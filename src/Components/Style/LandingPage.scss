@@ -1,8 +1,5 @@
-$box-shadow: 0 0.5rem 1rem rgba(#F8F9FA, 0.15) !default;
-image {
-    box-shadow: $box-shadow;
-}
-
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4),
+0 6px 20px 0 rgba(0, 0, 0, 0.19);
 $color: #03045E;
 h1 {
     color: $color;
@@ -16,8 +13,18 @@ h2 {
     font-weight: 500;
 }
 
-.button {
+.image {
+    box-shadow: $box-shadow
+}
+
+.btn {
     background-color: $color;
     color: white;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40%;
+    height: 50px;
+    width: 120px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
 }

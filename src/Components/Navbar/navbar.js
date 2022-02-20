@@ -20,8 +20,11 @@ function Navbar() {
           <span class="border-0" id="search-addon"></span>
         </div>
         <ul class="navbar-nav">
-        <li class="nav-item pr-7">
+        <li class="nav-about pr-7">
           <a class="nav-link active text-2xl font-bold hover:underline" aria-current="page" href="About">About</a>
+        </li>
+        <li class="nav-login pr-7">
+          <a class="nav-link active text-2xl font-bold hover:underline" aria-current="page" href="Login">Login</a>
         </li>
         </ul>
   </div>
